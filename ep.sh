@@ -14,7 +14,7 @@ python manage.py migrate
 
 echo "Collecting static"
 python manage.py collectstatic --no-input
-chmod 755 -R /app/web/static
+chmod 755 -R /app/web/staticfiles
 
 echo "Create superuser"
 python manage.py shell -c "
